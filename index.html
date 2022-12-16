@@ -23,10 +23,10 @@
             <a href="#skills" class="nav-link">Skills</a>
            </li>
            <li class="nav-item">
-            <a href="#code" class="nav-link"><Code></Code></a>
+            <a href="#code" class="nav-link">Code</a>
            </li>
            <li class="nav-item">
-            <a href="#projects" class="nav-link"><Projects></Prog></a>
+            <a href="#projects" class="nav-link">Projects</a>
            </li>
            <li class="nav-item">
             <a href="#education" class="nav-link">Education</a>
@@ -42,36 +42,95 @@
       <div class = "container main-container">
          <section class="section section-profile" id="profile">
             <img src="assets/img/my-photo.jpg" alt class="section-profile-photo">
-            <h1 class="section-title">"Profile"</h1>
+            <div class="section-profile-title">
+               <h1 class="section-title main-title">
+               "Artiom Turulin"
+               </h1>
+            </div>
          </section>
          <section class="section" id="contacts">
-            <h2 class="section-title">Contacts</h2> 
+            <h2 class="section-title">Contacts</h2>
+            <ul class="section-list">
+               <li class="section-item contacts-item">
+                  Minsk, Belarus
+               </li>
+               <li class="section-item contacts-item">
+                  Email:
+                  <a href="mailto:tur_ne@mail.ru" title="email">tur_ne@mail.ru</a>
+               </li>
+               <li class="section-item contacts-item">
+                  Github:
+                  <a href="https://github.com/ArtemTur" title="github">ArtemTur</a>
+               </li>
+               <li class="section-item contacts-item">
+                  Discord:
+                  <a href="https://discord.com/invite/zUr7wWYPXE" title="github">ArtemTur#4088</a>
+               </li>
+            </ul> 
          </section>
          <section class="section" id="summary">
             <h2 class="section-title">Summary</h2>
+            <p>"I am 33 and I want to change my life"</p>
          </section>
          <section class="section" id="scills">
-            <h2 class="section-title">Scills</h2>
+            <h2 class="section-title">Skills</h2>
+            <ul class="section-list">
+               <li class="section-item">
+                  HTML5 (1%)
+               </li>
+               <li class="section-item">
+                  CSS3(1%)
+               </li>
+               <li class="section-item">
+                  JavaScript(1%)
+               </li>
+            </ul>
          </section>
          <section class="section" id="code">
             <h2 class="section-title">Code</h2>
-         </section>
-         <section class="section" id="courses">
-            <h2 class="section-title">Courses</h2>
+            <pre class="pre">
+               <code>
+                  function factorial(n) {
+                    if(n < 0) return null;
+                    if (n <= 1) return 1;
+                    return n * factorial(n-1);
+                  }
+               </code>
+            </pre>
          </section>
          <section class="section" id="projects">
             <h2 class="section-title">Projects</h2>
+            <ul class="section-list">
+               <li class="section-item">
+                  <a href="https://github.com/ArtemTur/rsschool-cv/blob/gh-pages/cv.md">cv1</a>
+               </li>
+               <li class="section-item">
+                  <a href="https://github.com/ArtemTur/rsschool-cv/tree/rsschool-cv-html">cv3</a>
+               </li>
+            </ul>
          </section>
-         <section class="section" id="educftion">
+         <section class="section" id="education">
             <h2 class="section-title">Education</h2>
+            <p>Minsk State Automechanical College</p>
          </section>
          <section class="section" id="languages">
             <h2 class="section-title">Languages</h2>
+            <p> B1 - Pre-Intermediate</p>
          </section>
       </div>
     </main>
     <footer class = "footer">
-      <div class = "container"></div>
+      <div class = "container footer-container">
+         <div>
+            © 2022
+            <a href="https://github.com/ArtemTur" class="github nav-link">
+               ArtemTur
+            </a>
+         </div>
+         <a href="https://rs.school/js/" class="rss">
+            rs.school
+         </a>
+      </div>
     </footer>
  </body>
  </html>    
