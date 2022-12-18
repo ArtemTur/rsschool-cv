@@ -1,8 +1,5 @@
 html {
   scroll-behavior: smooth;
-}
-
-{
   box-sizing: border-box;
 }
 
@@ -28,17 +25,11 @@ body {
   font-weight: 420;
   line-height: 1.5;
   color: #000000;
-}
-
-{
   box-sizing: border-box;
 }
 
 .header {
   background-color: #C0C0C0;
-}
-
-{
   box-sizing: border-box;
 }
 
@@ -54,9 +45,6 @@ header {
   max-width: 1440px;
   margin: 0 auto;
   min-height: 50px;
-}
-
-{
   box-sizing: border-box;
 }
 
@@ -83,9 +71,23 @@ nav {
 }
 
 .main-title {
-  color: #808080;
+  color: #000000;
   font-size: 48px;
   font-weight: 300;
   letter-spacing: 4px;
   line-height:8px;
+}
+
+.section {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #C0C0C0;
+}
+
+.section-title {
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  color: #829985;
 }
