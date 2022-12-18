@@ -90,11 +90,13 @@
             <h2 class="section-title">Code</h2>
             <pre class="pre">
                <code>
-                  function factorial(n) {
-                    if(n < 0) return null;
-                    if (n <= 1) return 1;
-                    return n * factorial(n-1);
-                  }
+                  function map(f, a) {
+                     var result = [], // Создаём новый массив
+                         i;
+                     for (i = 0; i != a.length; i++)
+                       result[i] = f(a[i]);
+                     return result;
+                   }
                </code>
             </pre>
          </section>
