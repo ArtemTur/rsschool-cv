@@ -126,3 +126,7 @@ nav {
   background-size: contain;
   background-repeat: no-repeat;
 }
+
+.rss span {
+  visibility: hidden;
+}
